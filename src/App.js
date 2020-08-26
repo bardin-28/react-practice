@@ -1,13 +1,12 @@
 import React from 'react';
-import './App.css';
-import { Container, Button } from "react-bootstrap";
+import './App.scss';
+import Header from './Components/Header.jsx';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <Container>
-        Base init
-      </Container>
+      <Header />
     </div>
   );
 }
